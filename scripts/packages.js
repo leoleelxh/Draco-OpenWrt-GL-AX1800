@@ -13,10 +13,10 @@ module.exports = [
     name: 'luci-app-argon-config',
     desc: 'argon主题设置',
   },
-//   {
-//     name: 'luci-app-store',
-//     desc: '应用商店',
-//   },
+  {
+    name: 'luci-app-store',
+    desc: '应用商店',
+  },
   {
     name: 'luci-app-ramfree',
     desc: '释放内存',
@@ -89,10 +89,10 @@ module.exports = [
 //     name: 'luci-app-passwall',
 //     desc: 'passwall代理软件',
 //   },
-//   {
-//     name: 'luci-app-ssr-plus',
-//     desc: 'ssr-plus 代理软件',
-//   },
+  {
+    name: 'luci-app-ssr-plus',
+    desc: 'ssr-plus 代理软件',
+  },
 //   {
 //     name: 'luci-app-aliddns',
 //     desc: '阿里云ddns插件',
