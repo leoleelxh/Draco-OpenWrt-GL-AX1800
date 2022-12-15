@@ -18,7 +18,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: d334ab4ef0bf97445655499344fd4525b79768a7
+    revision: f2161c7e9c2698047d8e087b803458ff39d3f641
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
@@ -47,6 +47,5 @@ packages:
   - luci-app-xlnetacc
   - luci-app-cpufreq
   - luci-app-ttyd
-  - luci-app-ssr-plus
   - luci-app-serverchan
   - luci-app-transmission
