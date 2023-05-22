@@ -10,21 +10,20 @@
 
 name: BUILD GLINET MT2500
 
-on:
-  repository_dispatch:
-  workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
-
-  push:
-    paths:
-      - '.github/workflows/build-glinet-mt2500.yml'
-      - 'glinet-mt2500.yml'
-    branches:
-      - main
+# on:
+# repository_dispatch:
+# workflow_dispatch:
+#  inputs:
+#   ssh:
+#    description: 'SSH connection to Actions'
+#     required: false
+#     default: 'false'
+# push:
+#  paths:
+#   - '.github/workflows/build-glinet-mt2500.yml'
+#  - 'glinet-mt2500.yml'
+# branches:
+#  - main
 
   # schedule:
   #   - cron: 0 16 * * *
