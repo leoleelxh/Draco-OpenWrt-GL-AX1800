@@ -10,21 +10,20 @@
 
 name: ${name}
 
-on:
-  repository_dispatch:
-  workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
-
-  push:
-    paths:
-      - '.github/workflows/${workflowName}.yml'
-      - '${build}.yml'
-    branches:
-      - main
+# on:
+# repository_dispatch:
+# workflow_dispatch:
+#  inputs:
+#   ssh:
+#    description: 'SSH connection to Actions'
+#     required: false
+#     default: 'false'
+# push:
+#  paths:
+#   - '.github/workflows/${workflowName}.yml'
+#  - '${build}.yml'
+# branches:
+#  - main
 
   # schedule:
   #   - cron: 0 16 * * *
